@@ -1,27 +1,14 @@
 import { CheckCircle2 } from "lucide-react";
-
 const About = () => {
-  const features = [
-    "15 Years of Trusted Experience",
-    "Fast, Reliable Mobile Service — We Come to You",
-    "Honest, Fair Pricing",
-    "High-Quality Repairs for All Makes & Models",
-    "Convenience, Consistency, and Professionalism",
-    "Fully Licensed & Insured",
-    "Open Every Day, Including Sundays!"
-  ];
-
-  return (
-    <section className="py-20 bg-muted/30">
+  const features = ["15 Years of Trusted Experience", "Fast, Reliable Mobile Service — We Come to You", "Honest, Fair Pricing", "High-Quality Repairs for All Makes & Models", "Convenience, Consistency, and Professionalism", "Fully Licensed & Insured", "Open Every Day, Including Sundays!"];
+  return <section className="py-20 bg-muted/30">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-4xl md:text-5xl font-bold mb-4 text-foreground">
               Welcome to Ted's Mobile Mechanic
             </h2>
-            <p className="text-xl text-muted-foreground">
-              Trusted Auto Repair in Waltham, MA — Wherever You Are
-            </p>
+            <p className="text-xl text-muted-foreground">Trusted Auto Repair in Waltham, MA & Surrounding Area</p>
           </div>
           
           <div className="bg-card rounded-lg shadow-lg p-8 md:p-12 mb-8">
@@ -50,18 +37,14 @@ const About = () => {
             </h3>
             
             <div className="grid md:grid-cols-2 gap-4">
-              {features.map((feature, index) => (
-                <div key={index} className="flex items-start gap-3">
+              {features.map((feature, index) => <div key={index} className="flex items-start gap-3">
                   <CheckCircle2 className="h-6 w-6 text-secondary flex-shrink-0 mt-1" />
                   <span className="text-card-foreground">{feature}</span>
-                </div>
-              ))}
+                </div>)}
             </div>
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default About;
