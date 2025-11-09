@@ -60,7 +60,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <p className="font-semibold text-card-foreground mb-1">Follow Us</p>
-                    <a href="https://www.facebook.com/TedsMobileMechanic" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">
+                    <a href="https://www.facebook.com/p/Teds-Mobile-Mechanic-61572786107885/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">
                       Ted's Mobile Mechanic on Facebook
                     </a>
                   </div>

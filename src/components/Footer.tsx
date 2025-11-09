@@ -34,7 +34,7 @@ const Footer = () => {
                   <p>Waltham, MA 02453</p>
                 </div>
               </div>
-              <a href="https://www.facebook.com/TedsMobileMechanic" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-primary-foreground/80 hover:text-primary-foreground transition-colors">
+              <a href="https://www.facebook.com/p/Teds-Mobile-Mechanic-61572786107885/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-primary-foreground/80 hover:text-primary-foreground transition-colors">
                 <Facebook className="h-4 w-4" />
                 Follow us on Facebook
               </a>
