@@ -1,8 +1,6 @@
 import { Phone, Mail, MapPin, Facebook } from "lucide-react";
-
 const Footer = () => {
-  return (
-    <footer className="bg-primary text-primary-foreground py-12">
+  return <footer className="bg-primary text-primary-foreground py-12">
       <div className="container mx-auto px-4">
         <div className="grid md:grid-cols-3 gap-8 mb-8">
           <div>
@@ -15,17 +13,11 @@ const Footer = () => {
           <div>
             <h4 className="text-lg font-semibold mb-4">Quick Contact</h4>
             <div className="space-y-3">
-              <a 
-                href="tel:7818855678" 
-                className="flex items-center gap-2 text-primary-foreground/80 hover:text-primary-foreground transition-colors"
-              >
+              <a href="tel:7818855678" className="flex items-center gap-2 text-primary-foreground/80 hover:text-primary-foreground transition-colors">
                 <Phone className="h-4 w-4" />
                 (781) 885-5678
               </a>
-              <a 
-                href="mailto:tedsmobilemechanicshop@gmail.com" 
-                className="flex items-center gap-2 text-primary-foreground/80 hover:text-primary-foreground transition-colors break-all"
-              >
+              <a href="mailto:tedsmobilemechanicshop@gmail.com" className="flex items-center gap-2 text-primary-foreground/80 hover:text-primary-foreground transition-colors break-all">
                 <Mail className="h-4 w-4" />
                 tedsmobilemechanicshop@gmail.com
               </a>
@@ -38,16 +30,11 @@ const Footer = () => {
               <div className="flex items-start gap-2 text-primary-foreground/80">
                 <MapPin className="h-4 w-4 mt-1 flex-shrink-0" />
                 <div>
-                  <p>Shop: 17 Water St</p>
+                  <p>Shop: 71 Felton St</p>
                   <p>Waltham, MA 02453</p>
                 </div>
               </div>
-              <a 
-                href="https://www.facebook.com/TedsMobileMechanic" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="flex items-center gap-2 text-primary-foreground/80 hover:text-primary-foreground transition-colors"
-              >
+              <a href="https://www.facebook.com/TedsMobileMechanic" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-primary-foreground/80 hover:text-primary-foreground transition-colors">
                 <Facebook className="h-4 w-4" />
                 Follow us on Facebook
               </a>
@@ -61,8 +48,6 @@ const Footer = () => {
           </p>
         </div>
       </div>
-    </footer>
-  );
+    </footer>;
 };
-
 export default Footer;
