@@ -19,7 +19,7 @@ const Testimonials = () => {
     name: "Walter Fedun",
     date: "5 months ago",
     rating: 5,
-    title: "",
+    title: "Great service",
     text: "I had a blown out tire on my trailer and needed help replacing with the spare I already had. Ted's Mobile Mechanic came to the rescue as fast as possible, and on a Sunday morning. Highly recommended, GREAT service.",
     services: ""
   }];
